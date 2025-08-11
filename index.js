@@ -51,3 +51,5 @@ app.get("/users", async (req, res) => {
 app.listen(5001, () => {
     console.log("Server is running on port 5000");
 });
+
+module.exports = app
